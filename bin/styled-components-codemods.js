@@ -9,7 +9,7 @@ const { registerCodemods } = require('./utils');
  * Add the version-specific codemods here.
  */
 const codemods = {
-  v4: ['extendToStyled', 'injectGlobalToCreateGlobalStyle'],
+  v4: ['extendToStyled', 'injectGlobalToCreateGlobalStyle', 'attrsObjectToFunction'],
 };
 
 program.version(pkg.version);
